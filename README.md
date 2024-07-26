@@ -14,6 +14,7 @@ The dataset used in this project contains transactional records from a retail st
 - **Customer ID**: Unique identifier for each customer.
 - **Country**: Country where the customer resides.
 
+
 ## Methodology
 
 1. **Data Collection**: Collecting data on customers' purchase history and demographics.
@@ -23,11 +24,17 @@ The dataset used in this project contains transactional records from a retail st
 5. **K-Means Clustering**: Applying the K-Means algorithm to segment the customers.
 6. **Evaluation and Interpretation**: Analyzing the resulting clusters to identify distinct customer segments.
 
-## Results
 
-- **Customer Segmentation**: Customers were classified into distinct clusters based on their purchase behavior and demographics.
-- **Visualization**: t-SNE visualization was used to display the clusters.
-- **Model Accuracy**: Various models were tested for customer classification, with Random Forest achieving the highest accuracy.
+## Dependencies
+
+- Python 3.x
+- pandas
+- numpy
+- matplotlib
+- seaborn
+- scikit-learn
+- jupyter
+
 
 ## Usage
 
@@ -43,18 +50,16 @@ The dataset used in this project contains transactional records from a retail st
 3. **Run the Jupyter Notebooks**:
    Open and run the `customer-segmentation.ipynb` and `exploratory-data-analysis.ipynb` notebooks to reproduce the results.
 
-## Dependencies
 
-- Python 3.x
-- pandas
-- numpy
-- matplotlib
-- seaborn
-- scikit-learn
-- jupyter
+## Results
 
+- **Customer Segmentation**: Customers were classified into distinct clusters based on their purchase behavior and demographics.
+- **Visualization**: t-SNE visualization was used to display the clusters.
+- **Model Accuracy**: Various models were tested for customer classification, with Random Forest achieving the highest accuracy.
+
+  
 ## Authors
 
-Developed by-
-- Bhargavi Joshi - bhargavijoshi86@gmail.com
-- Pranjal Gautam - pranjalgautam1103@gmail.com
+Developed by:
+- **Bhargavi Joshi** - bhargavijoshi86@gmail.com
+- **Pranjal Gautam** - pranjalgautam1103@gmail.com
